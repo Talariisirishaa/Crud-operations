@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .account-page {
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .account-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7832c7;
+    color: #fff;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .notifications {
+    position: relative;
+  }
+  
+  .notification-icon {
+    font-size: 24px;
+  }
+  
+  .account-main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .account-main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .account-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .action-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #7832c7;
+    color: #fff;
+    
+  }
+  
+  .action-button:hover {
+    background: #7832c7;
+  }
+  
+  .logout {
+    background: #f44336;
+  }
+  
+  .logout:hover {
+    background: #d32f2f;
+  }
+  
