@@ -28,7 +28,7 @@ LocalStorage: To store and retrieve user data.
 # Input Validation Rules :
 Name: Required (cannot be empty).
 Password: Cannot be less than 8 characters
-Email: Must be in a valid email format (e.g., example@domain.com).
+Email: Must be in a valid email format (e.g., example@domin.com).
 Date of Birth (DOB): Must follow the format dd-mm-yyyy (e.g., 03-08-2003).
 
 If any validation fails, an alert message is shown to guide the user.
